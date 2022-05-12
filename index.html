@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <style>
+        .img{
+            width:50%;
+        }
+        .launch{
+            font-weight: 300;
+            color: hsl(0, 0%, 59%);
+        }
+        .soon{
+            font-weight: 600;
+            color: black;
+        }
+        .subscribe{
+            font-weight: 500;
+        }
+        .email{
+            border-color:hsl(223, 100%, 88%) ;
+            
+        }
+        ::placeholder{
+            color: hsl(223, 100%, 88%);
+        }
+        .notify{
+            background-color: hsl(223, 87%, 63%);
+            border-color: hsl(223, 87%, 63%);
+            color: white;
+        }
+        .icon{
+            color: hsl(223, 87%, 63%);
+        }
+        .copy{
+            color: hsl(0, 0%, 59%);
+            font-size: 10px;
+        }
+        
+    </style>
+    <main>
+        <div class="container">
+            <div class=" d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-md-12 mx-auto text-center mt-5">
+               <img class="mb-3" src="logo.svg">
+                <h2 class="launch">We are launching <span class="soon">soon!</span></h2>
+                <p class="subscribe">Subscribe to get notified</p>
+
+               <div class="mx-auto text-center mb-3 mt-3">
+                <form id="form" class="row g-3 justify-content-center">
+                    <div class="col-auto ">
+                        <input type="email" name="email" class=" rounded-pill pe-5 form-control email" id="email" placeholder="Your email address">
+                    <div class="error"></div>
+                    </div>
+                    <div class="col-auto ">
+                        <button  class="rounded-pill px-3 py-2 notify btn" type="submit">Notify Me</button>
+                    </div>
+                </form>
+               </div>
+                 <div>
+                     <img class="img" src="illustration-dashboard.png">
+                     </div>
+                     <div class="text-center mt-4 ">
+                        <i class="bi bi-facebook icon"></i>
+                        <i class="bi bi-twitter icon mx-3"></i>
+                        <i class="bi bi-instagram icon"></i>
+                        <p class="copy">Copyright ping. All rights reserved</p>
+                    </div>
+                     </div>
+                     
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>    
